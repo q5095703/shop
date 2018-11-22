@@ -1,0 +1,80 @@
+﻿
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+    <link href="~/css/Profile.css" rel="stylesheet" />
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <title>Index</title>
+ 
+</head>
+<body>
+
+    @{
+        ViewData["Title"] = "View";
+    }
+
+    <div class="header__wrapper">
+        <a class="header__item">login</a>
+
+
+    </div>
+    <div class="side__wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 half-top">
+                    <input class="input input__text" type="text"data-bind="textInput:search" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="body__wrapper" data-bind="visible: $root.load()" style="display: none;">
+        
+            <div class="container-fluid">
+                <div class="row">
+                    <!-- ko foreach: model.Products -->
+                    <div class="col-xs-4">
+                        <div class="product__wrapper">
+                            <!-- ko if: $root.Logged-->
+                            <p class="product__promation" data-bind="visible:isPromated, text:Promotion"></p>
+                            <!--/ko-->
+                            <img data-bind="attr:{src: URL}" />
+                            <p class="product__name" data-bind="text:Name"></p>
+                            <!-- ko if: $root.Logged-->
+                            <p class="product__item" data-bind="css: {'product--alert': alert},text:Count"></p>
+                            <p class="product__item" data-bind="visible:!isPromated,text:Price"></p>
+                            <button class="button button--blue" data-bind="click: AddToBasket">Add to Basket</button>
+                            <!--/ko-->
+                        </div>
+                       
+                    </div>
+                    <!--/ko-->
+                </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    <script src="../../Scripts/knockout-3.4.2.js"></script>
+    <script src="../../ViewModel/ProfileViewModel.js"></script>
+</body>
+</html>
+

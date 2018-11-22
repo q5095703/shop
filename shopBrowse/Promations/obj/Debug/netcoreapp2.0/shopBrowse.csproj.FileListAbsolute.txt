@@ -1,0 +1,11 @@
+C:\Users\kirst\source\repos\shopBrowse\Promations\obj\Debug\netcoreapp2.0\shopBrowse.csprojAssemblyReference.cache
+C:\Users\kirst\source\repos\shopBrowse\Promations\obj\Debug\netcoreapp2.0\shopBrowse.csproj.CoreCompileInputs.cache
+C:\Users\kirst\source\repos\shopBrowse\Promations\obj\Debug\netcoreapp2.0\shopBrowse.AssemblyInfoInputs.cache
+C:\Users\kirst\source\repos\shopBrowse\Promations\obj\Debug\netcoreapp2.0\shopBrowse.AssemblyInfo.cs
+C:\Users\kirst\source\repos\shopBrowse\Promations\bin\Debug\netcoreapp2.0\shopBrowse.deps.json
+C:\Users\kirst\source\repos\shopBrowse\Promations\bin\Debug\netcoreapp2.0\shopBrowse.runtimeconfig.json
+C:\Users\kirst\source\repos\shopBrowse\Promations\bin\Debug\netcoreapp2.0\shopBrowse.runtimeconfig.dev.json
+C:\Users\kirst\source\repos\shopBrowse\Promations\bin\Debug\netcoreapp2.0\shopBrowse.dll
+C:\Users\kirst\source\repos\shopBrowse\Promations\bin\Debug\netcoreapp2.0\shopBrowse.pdb
+C:\Users\kirst\source\repos\shopBrowse\Promations\obj\Debug\netcoreapp2.0\shopBrowse.dll
+C:\Users\kirst\source\repos\shopBrowse\Promations\obj\Debug\netcoreapp2.0\shopBrowse.pdb
